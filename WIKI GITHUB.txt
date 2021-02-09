@@ -1,0 +1,19 @@
+"""""""""""""""""""""""""""""""""""""
+"            ADD FOLDER             "
+"""""""""""""""""""""""""""""""""""""
+>>ADD folder into your path
+>>ADD new file.md into your folder
+>>now you can push the folder
+#git add .
+#git commit -m "komen"
+#git push
+"""""""""""""""""""""""""""""""""""""
+"           UPDATE FILE             "
+"""""""""""""""""""""""""""""""""""""
+#git pull origin
+"""""""""""""""""""""""""""""""""""""
+"          add/update file          "
+"""""""""""""""""""""""""""""""""""""
+#git add .
+#git commit -m "komen"
+#git push
