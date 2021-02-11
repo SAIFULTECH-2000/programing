@@ -1,0 +1,10 @@
+Lamb Chop;Western;18.90;Zack
+Spagetti;Western;14.90;Dina
+Nasi Lemak;Malay;8.90;Salina
+Shark Fin Soup;Chinese;25.00;Lim
+Nasi Kerabu;Malay;7.50;Mimi
+Burger;Western;9.90;Zack
+Lontong;Malay;9.90;Salina
+Beef Steak;Western;23.50;Zack
+Hokkien Mee;Chinese;8.90;Lim
+Rendang;Malay;10.00;Salina

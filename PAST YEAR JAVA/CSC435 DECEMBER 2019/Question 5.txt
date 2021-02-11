@@ -1,0 +1,12 @@
+QUESTION 5
+Food Festival 2020 will be held on 1st February 2020 at Dewan Budaya Kuala Lumpur. The
+list of food for that festival is shown in the following input file named food. txt.
+
+Write a complete Java program using file input output operations to solve the following
+questions:
+a) Read all recordsfrom the textfile named food. txt.
+b) Display the information of food based on the category into the following output files:
+western. txt - to store all information about Western food
+i. malay. txt - to store all information about Malay food
+ii. chinesse. txt - to store all information about Chinese food
+Figure 2 shows the expected output in these three output files.
