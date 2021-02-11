@@ -1,0 +1,4 @@
+**************Chinesse Food****************
+Name of food	Price	Chef
+Shark Fin Soup	25.00	Lim
+Hokkien Mee	8.90	Lim
