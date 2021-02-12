@@ -1,6 +1,6 @@
 **************Western Food****************
-Name of food	Price	Chef
-Lamb Chop	18.90	Zack
-Spagetti	14.90	Dina
-Burger	9.90	Zack
-Beef Steak	23.50	Zack
+Name of food     Price          Chef            
+Lamb Chop       18.90           Zack            
+Spagetti        14.90           Dina            
+Burger          9.90            Zack            
+Beef Steak      23.50           Zack            

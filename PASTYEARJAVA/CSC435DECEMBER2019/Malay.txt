@@ -1,6 +1,6 @@
 **************Malay Food****************
-Name of food	Price	Chef
-Nasi Lemak	8.90	Salina
-Nasi Kerabu	7.50	Mimi
-Lontong	9.90	Salina
-Rendang	10.00	Salina
+Name of food     Price          Chef            
+Nasi Lemak      8.90            Salina          
+Nasi Kerabu     7.50            Mimi            
+Lontong         9.90            Salina          
+Rendang         10.00           Salina          

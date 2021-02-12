@@ -10,16 +10,16 @@ public class FoodFestival {
     public static void main(String args[]){
        try {
            BufferedReader in = new BufferedReader(new FileReader("food.txt"));
-           FileWriter outWestern = new FileWriter("Western.txt");
-           FileWriter outMalay = new FileWriter("Malay.txt");
-           FileWriter outchinesse = new FileWriter("chinesse.txt");
+           PrintWriter outWestern =new PrintWriter( new FileWriter("Western.txt"));
+           PrintWriter outMalay = new PrintWriter(new FileWriter("Malay.txt"));
+           PrintWriter outchinesse =new PrintWriter( new FileWriter("chinesse.txt"));
             
            outWestern.write("**************Western Food****************"+"\n");
            outMalay.write("**************Malay Food****************"+"\n");
            outchinesse.write("**************Chinesse Food****************"+"\n");
-           outWestern.write("Name of food\tPrice\tChef"+"\n");
-           outMalay.write("%-15s %-15s %-15s %n" "Name of food, Price, Chef");
-           outchinesse.write("Name of food\tPrice\tChef"+"\n");
+           outWestern.printf("%-15s %-15s %-15s %n", "Name of food"," Price", "Chef");
+           outMalay.printf("%-15s %-15s %-15s %n", "Name of food"," Price", "Chef");
+           outchinesse.printf("%-15s %-15s %-15s %n", "Name of food"," Price", "Chef");
            String line;
            int Zack=0;
            while((line=in.readLine())!=null){
@@ -30,11 +30,11 @@ public class FoodFestival {
             if(array[3].equals("Zack"))
             Zack=Zack+1;
             if(array[1].equals("Western")){
-            outWestern.write(WriteMenu(line)+"\n");
+            WriteMenu(line, outWestern);
             }else if(array[1].equals("Malay")){
-            outMalay.write("%-15s %-15s %-15s %n" WriteMenu(line));
+            WriteMenu(line, outMalay);
             }else{
-            outchinesse.write(WriteMenu(line)+"\n");
+            WriteMenu(line, outchinesse);
             }   
            }
            in.close();
@@ -47,8 +47,8 @@ public class FoodFestival {
        }
       
     }
-    public static String WriteMenu(String line){
+    public static void WriteMenu(String line,PrintWriter out){
     String[] array = line.split(";",4);
-    return array[0]+"\t"+array[2]+"\t"+array[3];
+    out.printf("%-15s %-15s %-15s %n", array[0],array[2],array[3]);
     }
 }
