@@ -18,7 +18,7 @@ public class FoodFestival {
            outMalay.write("**************Malay Food****************"+"\n");
            outchinesse.write("**************Chinesse Food****************"+"\n");
            outWestern.write("Name of food\tPrice\tChef"+"\n");
-           outMalay.write("Name of food\tPrice\tChef"+"\n");
+           outMalay.write("%-15s %-15s %-15s %n" "Name of food, Price, Chef");
            outchinesse.write("Name of food\tPrice\tChef"+"\n");
            String line;
            int Zack=0;
@@ -32,7 +32,7 @@ public class FoodFestival {
             if(array[1].equals("Western")){
             outWestern.write(WriteMenu(line)+"\n");
             }else if(array[1].equals("Malay")){
-            outMalay.write(WriteMenu(line)+"\n");
+            outMalay.write("%-15s %-15s %-15s %n" WriteMenu(line));
             }else{
             outchinesse.write(WriteMenu(line)+"\n");
             }   
